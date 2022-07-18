@@ -18,3 +18,24 @@ html {
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
 }
+
+body{
+    background-color: var(--very-dark-blue-main);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--very-dark-blue-card);
+    width: 375px;
+    height: 550px;
+    padding: 1.5em;
+    border-radius: 1em;
+}
