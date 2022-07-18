@@ -32,10 +32,78 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     background-color: var(--very-dark-blue-card);
     width: 375px;
     height: 550px;
-    padding: 1.5em;
+    padding: 3em;
     border-radius: 1em;
+}
+
+/** image **/
+
+.card__ntf-image{
+    padding-bottom: 1em;
+    width: 100%;
+    height: auto;
+}
+
+.card__content h1{
+    color: var(--white);
+    font-size: 22px;
+}
+
+.card__content p{
+    color: var(--soft-blue);
+    padding: 1em 0;
+}
+
+.card__content__ofert{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__content__ofert__price{
+    display: flex;
+    flex-direction: row;
+    color: var(--cyan);
+    font-weight: 700;
+}
+
+.card__content__ofert__price span{
+    margin-left: 0.5em;
+}
+
+.card__content__ofert__time{
+    display: flex;
+    color: var(--soft-blue);
+    font-weight: 500;
+}
+
+.card__content__ofert__time span{
+    margin-left: 0.5em;
+}
+
+hr{
+    border-color: var(--very-dark-blue-line);
+    margin: 1em 0;
+}
+
+.card__content__author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card__content__author img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    margin-right: 1em;
+}
+
+.card__content__author span{
+    color: var(--white);
 }
